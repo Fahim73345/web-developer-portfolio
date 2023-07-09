@@ -2,3 +2,41 @@
 
 
 }
+body{ font-family: 'Open Sans', sans-serif;}
+header nav{display: flex    ;
+    margin-top: 15px;
+}
+header nav ul{display: flex ;
+    margin-left: 20%;
+    text-align: right;
+    margin-top: 5px;
+}
+header nav ul li{margin right: 20px;
+  display: inline-block;
+  padding: 10px;
+   margin-top:5px;
+}
+header nav ul li a{text-decoration: none;
+    padding: 5px;
+    color:black;
+    
+}
+header nav ul li a:hover{color:#fd6e0a;}
+.fahim{ clolor:rgb(26, 24, 24);
+    margin-left: 250px;
+    font-size: 35px;
+    margin-top: 5px;
+}
+.fahim span{ color:#fd6e0a;}
+.hireme{background-color: #fd6e0a;
+color:white;
+padding: 13px;
+border-style: none;
+width: 115px;
+margin-top: -9px;
+font-size: 17px;
+border-radius: 5px  ;
+}
+.hireme:hover{background-color: black;
+transition: 0.3s;
+cursor: pointer;}
