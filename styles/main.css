@@ -69,13 +69,17 @@ header nav ul li a:hover {
 }
 
 .hireme:hover {
-    transition: 0.3s;
     cursor: pointer;
+    background-color: white;
+    color: #fd6e0a;
+    transition: 0.5s;
 }
 
 .hireme:active {
-    background-color: white;
-    color: #fd6e0a
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    transition: 0.3s;
 }
 
 
@@ -259,4 +263,17 @@ header nav ul li a:hover {
 
 .stydy-descreption {
     margin-top: 14px;
+}
+.download-cv{text-align: center;
+margin-top: 50px;}
+.btn-primary:hover{cursor: pointer;
+    background-color: white;
+    color: #fd6e0a;
+    transition: 0.5s;
+}
+.btn-primary:active{cursor: pointer;
+    background-color: black;
+    color: white;
+    transition: 0.3s;
+   
 }
