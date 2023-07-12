@@ -82,6 +82,40 @@ header nav ul li a:hover {
     transition: 0.3s;
 }
 
+.shop-list {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px;
+    align-items: left;
+    background-color: white;
+    justify-content: left;
+    padding: 0px;
+    transform: scaleY(0);
+    transition: 0.3s;
+    transform-origin: top;
+    padding-right: 10px;
+    width: 160px;
+}
+
+.my-shops:hover .shop-list {
+    transform: scaleY(1);
+
+}
+
+.shop {
+    padding-left: 0px;
+    margin-left: 0px;
+    text-align: left;
+
+}
+
+.shop:hover {
+    font-weight: bold;
+}
+
+
+
 
 
 
