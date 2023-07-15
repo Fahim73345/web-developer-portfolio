@@ -384,3 +384,29 @@ footer {
     margin-top: 15px;
     width: 150px;
 }
+
+/* responsive csss */
+.hide{ display: none;}
+@media screen and (max-width:576px) {
+    
+    header nav {flex-direction: column;}
+    header nav ul {flex-direction: row;
+        padding:0px;
+        margin-top: 10px;
+    margin: auto;}
+    header nav ul li {
+        margin-right: 5px;
+        display: inline-block;
+        padding: 0px;
+        align-items: center;
+        font-size: 12px;
+    
+    }
+   
+    .hireme{padding:2px;
+    width:90px;} 
+   
+    .fahim{margin: auto;
+    margin-top: 10px;
+margin-top: 5px;}
+}
